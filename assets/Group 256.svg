@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="100" viewBox="0 0 550 100">
+  <g id="Group_256" data-name="Group 256" transform="translate(-880)">
+    <g id="Group_259" data-name="Group 259" transform="translate(-20 -10)">
+      <g id="Rectangle_57" data-name="Rectangle 57" transform="translate(1140 36)" fill="none" stroke="#fff" stroke-width="1">
+        <rect width="200" height="48" stroke="none"/>
+        <rect x="0.5" y="0.5" width="199" height="47" fill="none"/>
+      </g>
+      <text id="お問い合わせ" transform="translate(1240 65)" fill="#fff" font-size="14" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.025em"><tspan x="-38.179" y="0">お問い合わせ</tspan></text>
+    </g>
+    <g id="Group_258" data-name="Group 258" transform="translate(20 -10)">
+      <text id="_10:00_18:00_土日_祝日_年末年始除く" data-name="10:00～18:00 土日・祝日・年末年始除く" transform="translate(860 82)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">10:00</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">～</tspan><tspan y="0">18:00 </tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">土日・祝日・年末年始除く</tspan></text>
+      <text id="_0120-00-0000" data-name="0120-00-0000" transform="translate(902 58)" fill="#fff" font-size="24" font-family="Lato-Medium, Lato" font-weight="500" letter-spacing="0.025em"><tspan x="0" y="0">0120-00-0000</tspan></text>
+      <text id="TEL" transform="translate(863 52)" fill="#fff" font-size="13" font-family="Lato-Medium, Lato" font-weight="500" letter-spacing="0.2em"><tspan x="0" y="0">TEL</tspan></text>
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="30" height="1" transform="translate(862 58)" fill="#fff"/>
+    </g>
+    <g id="Group_452" data-name="Group 452" transform="translate(9.957)">
+      <rect id="Rectangle_54" data-name="Rectangle 54" width="100" height="100" transform="translate(1320.043)" fill="#222"/>
+      <g id="Group_411" data-name="Group 411" transform="translate(1352.912 33.605)">
+        <g id="Group_76" data-name="Group 76" transform="translate(0 22)">
+          <rect id="Rectangle_52" data-name="Rectangle 52" width="34" height="1" transform="translate(0.131 0.395)" fill="#fff"/>
+          <rect id="Rectangle_53" data-name="Rectangle 53" width="34" height="1" transform="translate(0.131 7.395)" fill="#fff"/>
+        </g>
+        <text id="MENU" transform="translate(17.131 11.395)" fill="#fff" font-size="11" font-family="Lato-Medium, Lato" font-weight="500" letter-spacing="0.05em"><tspan x="-17.394" y="0">MENU</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
