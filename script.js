@@ -38,13 +38,19 @@ toProduct.addEventListener('click', function() {
 });
 
 const topPageHeight = topPage.offsetHeight;
+
 window.addEventListener('scroll', () => {
-    if(topPageHeight <= window.scrollY + 200) {
+    if(topPageHeight <= window.scrollY) {
     header.classList.add('fixed');
-    aboutPageContainer.classList.add('s-1');
-    aboutPageContainer.classList.remove('invisible');
     } else {
     header.classList.remove('fixed');
+    }
+});
+
+window.addEventListener('scroll', () => {
+    if(topPageHeight <= window.scrollY + 200) {
+    aboutPageContainer.classList.add('s-1');
+    aboutPageContainer.classList.remove('invisible');
     }
 });
 

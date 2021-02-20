@@ -175,7 +175,7 @@ background-color: #ffffff;
 
 .s-1 {
     animation-name: increaseVisibility;
-    animation-duration: 2.5s;
+    animation-duration: .5s;
 }
 .invisible {
     opacity: 0;
@@ -194,7 +194,7 @@ background-color: #ffffff;
 }
 .left-1 {
     animation-name: toLeft;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 @keyframes toTop {
@@ -214,11 +214,11 @@ background-color: #ffffff;
 }
 .top-1 {
     animation-name: toTop;
-    animation-duration: 1.5s;
+    animation-duration: .5s;
 }
 .top-2 {
     animation-name: toTop;
-    animation-duration: 2s;
+    animation-duration: .75s;
 }
 /* HEADER */
 @media screen and (min-width: 768px) {
@@ -1458,11 +1458,11 @@ background-color: #ffffff;
         display: flex;
         white-space: nowrap;
         text-align: center;
+        padding-top: 5.6vw;
     }
     .inquire-details-btn a {
         padding: 3.6vw 28.9333vw;
         border: 1px solid white;
-        padding-top: 5.6vw;
         font-size: 3.4vw;
         font-weight: 400;
     }
