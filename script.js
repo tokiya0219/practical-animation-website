@@ -119,14 +119,14 @@ window.addEventListener('scroll', () => {
 });
 const picture3ContainerTop = picture3Container.offsetTop;
 window.addEventListener('scroll', () => {
-    if(productionTop + picture3ContainerTop<= window.scrollY + 200) {
+    if(productionTop + picture3ContainerTop <= window.scrollY + 300) {
         picture3Container.classList.add('top-1');
         picture3Container.classList.remove('invisible');
     }
 });
 const picture4ContainerTop = picture4Container.offsetTop;
 window.addEventListener('scroll', () => {
-    if(productionTop + picture4ContainerTop <= window.scrollY + 200) {
+    if(productionTop + picture4ContainerTop <= window.scrollY + 300) {
         picture4Container.classList.add('top-2');
         picture4Container.classList.remove('invisible');
     }
