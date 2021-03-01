@@ -24,6 +24,10 @@ img {
     max-width: 100vw;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 #display-img,
 .footer-phone-inquirement-container {
     background-color: #222222;
@@ -175,11 +179,12 @@ background-color: #ffffff;
 
 .s-1 {
     animation-name: increaseVisibility;
-    animation-duration: .5s;
+    animation-duration: 1.5s;
 }
 .invisible {
     opacity: 0;
 }
+
 @keyframes toLeft {
     from {
         opacity: 0;
@@ -194,7 +199,7 @@ background-color: #ffffff;
 }
 .left-1 {
     animation-name: toLeft;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 @keyframes toTop {
@@ -214,11 +219,11 @@ background-color: #ffffff;
 }
 .top-1 {
     animation-name: toTop;
-    animation-duration: .5s;
+    animation-duration: 1.5s;
 }
 .top-2 {
     animation-name: toTop;
-    animation-duration: .75s;
+    animation-duration: 2s;
 }
 /* HEADER */
 @media screen and (min-width: 768px) {

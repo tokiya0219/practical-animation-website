@@ -1,3 +1,5 @@
+// const displayPage = document.getElementById('display-page');
+const body = document.body;
 const menuBar = document.getElementById('menu-bars');
 const menuCrossBar = document.getElementById('menu-bars-cross');
 const menuContent = document.getElementById('menu-content');
@@ -23,10 +25,12 @@ const picture4Container = document.getElementById('picture-4-container');
 
 menuBar.addEventListener('click', function() {
     menuContent.classList.add('showing');
+    body.classList.add('overflow');
     menuContent.hidden = false;
 });
 menuCrossBar.addEventListener('click', () => {
     menuContent.classList.remove('showing');
+    body.classList.remove('overflow');
 });
 toABout.addEventListener('click', function() {
     menuContent.classList.remove('showing');
@@ -38,6 +42,7 @@ toProduct.addEventListener('click', function() {
 });
 
 const topPageHeight = topPage.offsetHeight;
+const displayHeight = window.innerHeight;
 
 window.addEventListener('scroll', () => {
     if(topPageHeight <= window.scrollY) {
@@ -48,7 +53,7 @@ window.addEventListener('scroll', () => {
 });
 
 window.addEventListener('scroll', () => {
-    if(topPageHeight <= window.scrollY + 200) {
+    if(topPageHeight <= window.scrollY + displayHeight) {
     aboutPageContainer.classList.add('s-1');
     aboutPageContainer.classList.remove('invisible');
     }
@@ -56,16 +61,15 @@ window.addEventListener('scroll', () => {
 
 const aboutBottomPageTop = aboutBottomPage.offsetTop;
 window.addEventListener('scroll', () => {
-    if(aboutBottomPageTop <= window.scrollY + 300) {
+    if(aboutBottomPageTop <= window.scrollY + displayHeight) {
         aboutBottomPage.classList.add('s-1');
         aboutBottomPage.classList.remove('invisible');
-    } else {
-    }
+    } 
 });
 
 const aboutImagesContainerTop = aboutImagesContainer.offsetTop;
 window.addEventListener('scroll', () => {
-    if(aboutImagesContainerTop <= window.scrollY + 300) {
+    if(aboutImagesContainerTop <= window.scrollY + displayHeight) {
         aboutImagesContainer.classList.add('s-1');
         aboutImagesContainer.classList.remove('invisible');
     }
@@ -73,7 +77,7 @@ window.addEventListener('scroll', () => {
 
 const chairImgTop = chairImg.offsetTop;
 window.addEventListener('scroll', () => {
-    if(chairImgTop <= window.scrollY + 300) {
+    if(chairImgTop <= window.scrollY + displayHeight) {
         chairImgContainer.classList.add('left-1');
         chairImgContainer.classList.remove('invisible');
     }
@@ -81,7 +85,7 @@ window.addEventListener('scroll', () => {
 
 const graphImgContainerTop = graphImgContainer.offsetTop;
 window.addEventListener('scroll', () => {
-    if(graphImgContainerTop <= window.scrollY + 300) {
+    if(graphImgContainerTop <= window.scrollY + displayHeight) {
         graphImgContainer.classList.add('s-1');
         graphImgContainer.classList.remove('invisible');
     }
@@ -89,7 +93,7 @@ window.addEventListener('scroll', () => {
 
 const graphTextsContainerTop = graphTextsContainer.offsetTop;
 window.addEventListener('scroll', () => {
-    if(graphTextsContainerTop <= window.scrollY + 300) {
+    if(graphTextsContainerTop <= window.scrollY + displayHeight) {
         graphTextsContainer.classList.add('left-1');
         graphTextsContainer.classList.remove('invisible');
     }
@@ -98,35 +102,33 @@ window.addEventListener('scroll', () => {
 
 const productionTop = production.offsetTop;
 window.addEventListener('scroll', () => {
-    if(productionTop <= window.scrollY + 300) {
+    if(productionTop <= window.scrollY + displayHeight) {
         productContainer.classList.add('s-1');
         productContainer.classList.remove('invisible');
     }
 });
-// const picture1ContainerTop = picture1Container.offsetTop;
 window.addEventListener('scroll', () => {
-    if(productionTop <= window.scrollY + 200) {
+    if(productionTop <= window.scrollY + displayHeight) {
         picture1Container.classList.add('top-1');
         picture1Container.classList.remove('invisible');
     }
 });
-// const picture2ContainerTop = picture2Container.offsetTop;
 window.addEventListener('scroll', () => {
-    if(productionTop <= window.scrollY + 200) {
+    if(productionTop <= window.scrollY + displayHeight) {
         picture2Container.classList.add('top-2');
         picture2Container.classList.remove('invisible');
     }
 });
 const picture3ContainerTop = picture3Container.offsetTop;
 window.addEventListener('scroll', () => {
-    if(productionTop + picture3ContainerTop <= window.scrollY + 300) {
+    if(productionTop + picture3ContainerTop <= window.scrollY + displayHeight) {
         picture3Container.classList.add('top-1');
         picture3Container.classList.remove('invisible');
     }
 });
 const picture4ContainerTop = picture4Container.offsetTop;
 window.addEventListener('scroll', () => {
-    if(productionTop + picture4ContainerTop <= window.scrollY + 300) {
+    if(productionTop + picture4ContainerTop <= window.scrollY + displayHeight) {
         picture4Container.classList.add('top-2');
         picture4Container.classList.remove('invisible');
     }
